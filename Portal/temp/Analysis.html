@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Analysis About">
+	  <meta name="keywords" content="Analysis About">
+  	<meta name="author" content="Rajesh Ranjan">
+    <title>Salty Cherry | Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">SaltyCherry</span> Startup Evaluator</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/index">Home</a></li>
+            <li><a href="/MainDashboard">Insights</a></li>
+            <li class="current"><a href="/Analysis">Analysis</a></li>
+            <li><a href="/Team">Team</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+
+    <section id="main">
+      <div class="container">
+        <br>
+        <table width="100%" style="font-family: Georgia", cursive, sans-serif>
+          <tr width="100" style="align-items: center;"> </tr>
+          <th style="background-color:#669999"> Analytical Insights</th>
+          <tr></tr>
+
+          <th style="background-color:#669999">Classify if the Startup will reach Stage Goal </th>
+          <th style="background-color:#669999">Classify if the Startup will be Operational or Closed</th>
+          <tr>
+          <TD style="background-color:#4d1a00"></TD>
+          <TD style="background-color:#4d1a00"></TD></tr>
+          <tr>
+            <TD style="background-color:#669999; width: 25%; text-align-last: center;"  >Reach 2m for Seed and 12m for Series A round (Sample size 4000)</TD >
+            <TD style="background-color:#669999; width: 25%; text-align-last: center;" >Startup prediction- Operating or Close (Sample size 9600)</TD >
+          </tr>
+          <tr>
+            <TD style="background-color:#669999; width: 25%; "  > If Social media presence affect the probability of achieving Seed (2m) or Series A (12m) goal for Startups</TD >
+            <TD style="background-color:#669999; width: 25%; " > Important features to determine if the Startup would be Operational or Closed</TD >
+          </tr>
+           <tr>
+            <TD style="background-color:#669999; width: 25%; ">
+              <table>
+                <tr>
+                  <td width="50%">Features: years, Location, Market, Size_numeric, Stage, Raised (amount $), Annual Raised($), Followers </td>
+                </tr>
+                <tr>
+                  <td width="50%">Result: Raise 2m for Seed & 12m for Series A category</td>
+                </tr>
+              </table>
+            </TD >
+            <TD style="background-color:#669999; width: 25%; "> 
+              <table>
+                <tr>
+                  <td width="50%">Features: Market Category, Funding Rounds, No Of Investors, Home Page URL, Average Raised($),   Total Funding, Average delta b/w rounds,  Delta for FIRST round, USA Region, Time Between First & Last</td>
+                </tr>
+                <tr>
+                  <td width="50%">Result: Operating or Closed</td>
+                </tr>
+              </table>
+            </TD >
+          </tr>
+          <tr>
+            <TD style="background-color:#669999; width: 25%" >
+              <li style="font-family: Georgia", cursive, sans-serif><a href="/EDAStartupWithSocial" target="_blank"> Exploratory Data Analysis </a></li>
+            </TD >
+            <TD style="background-color:#669999; width: 25%">
+              <li style="font-family: Georgia", cursive, sans-serif><a href="/EDA" target="_blank"> Exploratory Data Analysis </a></li>
+            </TD>
+          </tr>
+          <tr>
+            <TD style="background-color:#669999; width: 25%" >
+              <li style="font-family: Georgia", cursive, sans-serif><a href="/SeedDT" target="_blank"> Decision Tree - Seed Analysis </a></li>
+            </TD >
+            <TD style="background-color:#669999; width: 25%">
+              <li style="font-family: Georgia", cursive, sans-serif><a href="/DTOperating" target="_blank"> Decision Tree - Operating </a></li>
+            </TD>
+          </tr>
+          <tr>
+            <TD style="background-color:#669999; width: 25%" >
+              <li style="font-family: Georgia", cursive, sans-serif><a href="/SeriesDT" target="_blank"> Decision Tree - Series A Analysis </a></li>
+            </TD >
+            <TD style="background-color:#669999; width: 25%">
+              <li style="font-family: Georgia", cursive, sans-serif><a href="/OperCloseForApp" target="_blank"> Startup Prediction - Model performance </a></li>
+            </TD>
+          </tr>
+          <tr>
+            <TD style="background-color:#669999; width: 25%" >
+              <li style="font-family: Georgia", cursive, sans-serif><a href="/SurvivalAnalysisForApp" target="_blank"> Survival Analysis </a></li>
+            </TD >
+            <TD style="background-color:#669999; width: 25%">
+              
+            </TD>
+          </tr>
+          <tr>
+            <TD style="background-color:#669999; width: 25%" >
+              <li style="font-family: Georgia", cursive, sans-serif><a href="/PredictionWithSocial" target="_blank"> Social Media effect on model performance</a></li>
+            </TD >
+            <TD style="background-color:#669999; width: 25%">
+              
+            </TD>
+          </tr>
+      
+        </table>
+<br>
+        <table width="100%" style="font-family: Georgia", cursive, sans-serif>
+          <tr width="100" style="align-items: center;"> </tr>
+          <tr></tr>
+
+          <th style="background-color:#669999">Model Evaluation- Funding Goal </th>
+          <th style="background-color:#669999">Model Evaluation- Stage (Operating/Close)</th>
+          <tr>
+         <TD style="background-color:#669999; width: 50%" >
+              <li style="font-family: Georgia", cursive, sans-serif><a href="/ComparativeStudy"> Estimate Probability - Seed/Series Stage</a></li>
+            </TD >
+           <TD style="background-color:#669999; width: 50%" >
+              <li style="font-family: Georgia", cursive, sans-serif><a href="/ComparativeStudy"> Estimate Probability - Operating/Close </a></li>
+            </TD > 
+          </tr>
+          </table>
+        <br>
+        <br><br>
+        <br>
+        <br><br>
+        <br>
+      
+
+
+      </div>
+    </section>
+
+<footer>
+  <table>
+    <tr>
+      <td><image src="{{ url_for('static', filename='/images/Cherry.jpg')}}" width="50" height="40"></td>
+      <td style="text-shadow: 2px 2px 5px red;">SaltyCherry [ powered by team alpha ]</td>
+    </tr>
+  </table>
+</footer>
+  </body>
+</html>
