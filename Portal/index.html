@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Home Page">
+    <meta name="keywords" content="Home Page">
+    <meta name="author" content="Rajesh Ranjan">
+    <title>Salty Cherry | Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+  </head>
+</head>
+
+ <header>
+      <div class="container">
+        <div id="branding">
+
+          <h1><span class="highlight">SaltyCherry</span> Startup Evaluator</h1>
+        </div>
+        <nav>
+          <ul>
+            <li class="current"><a href="/index">Home</a></li>
+            <li><a href="/MainDashboard">Insights</a></li>
+            <li><a href="/Analysis">Analysis</a></li>
+            <li><a href="/Team">Team</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<body>
+ <div class="container">
+	<h1>Prediction Calculator</h1>
+  <h3>Estimate probability of final position for Startup - Operating or Closed</h3>
+
+
+   <!-- Main Input For Receiving Query to our ML -->
+
+<form action='/predict' method="post">
+
+<table width="100%" style="font-family: Georgia", cursive, sans-serif>
+  <tr>
+    <td style="width: 25%">
+      <font face="Georgia"><label for="mrktCat">Market Category</label></font></td>
+    <td style="width: 25%">
+      <select id="mrktCat" name="mrktCat">
+        <option value="0"><font face="Comic Sans MS">biotech</font></option>
+        <option value="1">e-commerce</option>
+        <option value="2">games</option>
+        <option value="3">healthcare</option>
+        <option value="0">manufacturing</option>
+        <option value="1">medicalGear</option>
+        <option value="2">mobile</option>
+        <option value="3">pharma</option>
+        <option value="2">software</option>
+        <option value="3">technology</option>
+      </select>
+    </td>
+    <td style="width: 25%"><label for="fundingRounds">Funding Rounds</label></td>
+    <td style="width: 25%; font-family: Comic Sans MS", cursive, sans-serif>
+    <input type="number" id="fundingRounds" name="fundingRounds"min="1" max="25" required="required" value="1">
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 25%"><label for="noOfInv">No Of Investors</label></td>
+    <td style="width: 25%"><input type="number" id="noOfInv" name="noOfInv"min="1" max="250" required="required" value="1"></td>
+    <td style="width: 25%"><label for="HURL">Home Page URL</label></td>
+    <td style="width: 25%">
+      <select id="HURL" name="HURL">
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+      </select>
+    </td>
+  </tr>
+  <tr>
+    <td style="width: 25%"><label for="avgRaisedUSD">Average Raised ($)</label></td>
+    <td style="width: 25%"><input type="text" id="avgRaisedUSD" name="avgRaisedUSD" required="required"></td>
+    <td style="width: 25%"><label for="ttlFunding">Total Fundin ($)</label></td>
+    <td style="width: 25%"><input type="text" id="ttlFunding" name="ttlFunding"></td>
+  </tr>
+  <tr>
+    <td style="width: 25%"><label for="avgdeltaRounds">Average delta b/w rounds</label></td>
+    <td style="width: 25%"><input type="text" id="avgdeltaRounds" name="avgdeltaRounds" required="required"></td>
+    <td style="width: 25%"><label for="dltaForFrstRound">Delta for FIRST round</label></td>
+    <td style="width: 25%"><input type="text" id="dltaForFrstRound" name="dltaForFrstRound" required="required"></td>
+  </tr>
+  <tr>
+    <td style="width: 25%"><label for="US_Region">USA Region</label></td>
+    <td style="width: 25%">
+      <select id="US_Region" name="US_Region">
+        <option value="0">Midwest</option>
+        <option value="1">Northeast</option>
+        <option value="2">South</option>
+        <option value="3">West</option>
+      </select>
+    </td>
+    <td style="width: 25%"><label for="TimeBetweenFirstLast">Time Between First & Last</label></td>
+    <td style="width: 25%"><input type="text" id="TimeBetweenFirstLast" name="TimeBetweenFirstLast" required="required"></
+  </tr>
+  <tr></tr>
+  <tr></tr>
+  <tr></tr>  <tr></tr>
+  <tr></tr>
+  <tr></tr><tr></tr>
+  <tr></tr>
+  <tr></tr>
+  <tr><td style="width: 25%"><input type="submit" value="Estimate Prediction"></td>
+<tr></tr>
+</tr>
+</table>
+</form>
+
+   <br>
+        {{pred}}<br>
+<br>
+ </div>
+
+<footer>
+  <table>
+    <tr>
+      <td><image src="{{ url_for('static', filename='/images/Cherry.jpg')}}" width="50" height="40"></td>
+      <td style="text-shadow: 2px 2px 5px red;">SaltyCherry [ powered by team alpha ]</td>
+    </tr>
+  </table>
+</footer>
+</body>
+</html>

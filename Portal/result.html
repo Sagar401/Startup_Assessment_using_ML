@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="startup evaluator Team">
+	  <meta name="keywords" content="startup evaluator Team">
+  	<meta name="author" content="Rajesh Ranjan">
+    <title>SaltyCherry Capstone Team</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+   
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">SaltyCherry</span> Startup Evaluator</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="/index">Home</a></li>
+            <li><a href="/MainDashboard">Insights</a></li>
+            <li><a href="/Analysis">Analysis</a></li>
+            <li class="current"><a href="/Team">Team</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <br>
+        <h3> The probability of the startup success is: {{ (prediction *100)|round(2) }} %</h3>
+
+      </div>
+    </section>
+
+
+
+<footer>
+  <table>
+    <tr>
+      <td><image src="{{ url_for('static', filename='/images/Cherry.jpg')}}" width="50" height="40"></td>
+      <td style="text-shadow: 2px 2px 5px red;">SaltyCherry [ powered by team alpha ]</td>
+    </tr>
+  </table>
+</footer>
+</html>
