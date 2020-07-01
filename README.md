@@ -1,4 +1,4 @@
-# Startup_Assessment
+# Startups Assessment using Machine Learning
 
 During final semester we got a chance to work for a crowdfunding company name RedCrow which works with early-stage startups and help them to achieve their desired crowdfunding. And we where asked to come up with a solution that helps or adds value to their client/startup companies acheive their desired goals effectively. We have build a prototype of a web application that aids as a tool for both inverstor and company/startup. 
 
