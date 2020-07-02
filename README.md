@@ -34,7 +34,7 @@ A startup company grows and grows until it proven itself – we had a prolific e
   * B. Key Features: Average Funding, Total Funding, Delta between First and Last funding, No of Investors, Funding Rounds, Market Category etc.
   * C. Outcome: Startups Stage as Operational Or Close
 
-![StartupPositionFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/PositionFlow.png)
+![StartupPositionFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/PositionFlow.jpg)
 
 **Stage evolution : startups movement from Seed to Stage A:** 
  * a.	Support hypothesis of association between funding stage with digital & social presence
@@ -46,10 +46,10 @@ A startup company grows and grows until it proven itself – we had a prolific e
   * B. Key Features: Total Funding, Annual Funding, Size, Market Category and Twitter Followers etc.
   * C. Outcome: Raised 2m (0- No, 1- Yes) for Seed Stage and Raised 12m( 0- No, 1- Yes) for Series A
 
-![StartupStageFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/StageFlow.png)
+![StartupStageFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/StageFlow.jpg)
 
 **CRISP-DM Methodology:** - for improvised outcome
-![WebAppFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/WebAppFlow.png)
+![WebAppFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/WebAppFlow.jpg)
 
 **Web Application Demo** - Startup Operational Position Prediction 
 ![WebAppDemo](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/WebApp.gif)
