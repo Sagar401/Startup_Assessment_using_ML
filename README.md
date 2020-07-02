@@ -36,6 +36,8 @@ A startup company grows and grows until it proven itself – we had a prolific e
 
 ![StartupPositionFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/PositionFlow.jpg)
 
+** **
+
 **Stage evolution : startups movement from Seed to Stage A:** 
  * a.	Support hypothesis of association between funding stage with digital & social presence
  * b.	Probability of startups to establish Seed and Series A funding position
@@ -48,8 +50,12 @@ A startup company grows and grows until it proven itself – we had a prolific e
 
 ![StartupStageFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/StageFlow.jpg)
 
+** **
+
 **CRISP-DM Methodology:** - for improvised outcome
 ![WebAppFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/WebAppFlow.jpg)
+
+** **
 
 **Web Application Demo** - Startup Operational Position Prediction 
 ![WebAppDemo](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/WebApp.gif)
