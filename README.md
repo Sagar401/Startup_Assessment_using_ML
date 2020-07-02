@@ -30,23 +30,23 @@ A startup company grows and grows until it proven itself – we had a prolific e
 **Predict the final position of startup (operational or close):** able to support startups, investors and investment platforms like RedCrow to predict the unicorn’s prospects.
 
 * Analytical Approach:
-  * A. Data Source: https://www.kaggle.com/mauriciocap/crunchbase2013
-  * B. Key Features: Average Funding, Total Funding, Delta between First and Last funding, No of Investors, Funding Rounds, Market Category etc.
-  * C. Outcome: Startups Stage as Operational Or Close
+  * Data Source: https://www.kaggle.com/mauriciocap/crunchbase2013
+  * Key Features: Average Funding, Total Funding, Delta between First and Last funding, No of Investors, Funding Rounds, Market Category etc.
+  * Outcome: Startups Stage as Operational Or Close
 
 ![StartupPositionFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/PositionFlow.jpg)
 
 ** **
 
 **Stage evolution : startups movement from Seed to Stage A:** 
- * a.	Support hypothesis of association between funding stage with digital & social presence
- * b.	Probability of startups to establish Seed and Series A funding position
+  * Support hypothesis of association between funding stage with digital & social presence
+  * Probability of startups to establish Seed and Series A funding position
 
 
 * Analytical Approach:
-  * A. Data Source: Web Scraped from Angelist.co/companies (for startup info) and Twitter(for startups social presence)
-  * B. Key Features: Total Funding, Annual Funding, Size, Market Category and Twitter Followers etc.
-  * C. Outcome: Raised 2m (0- No, 1- Yes) for Seed Stage and Raised 12m( 0- No, 1- Yes) for Series A
+  * Data Source: Web Scraped from Angelist.co/companies (for startup info) and Twitter(for startups social presence)
+  * Key Features: Total Funding, Annual Funding, Size, Market Category and Twitter Followers etc.
+  * Outcome: Raised 2m (0- No, 1- Yes) for Seed Stage and Raised 12m( 0- No, 1- Yes) for Series A
 
 ![StartupStageFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/StageFlow.jpg)
 
