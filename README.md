@@ -23,7 +23,7 @@ A startup company grows and grows until it proven itself – we had a prolific e
   * Support hypothesis of association between funding stage with digital & social presence
   * Probability of startups to establish Seed and Series A funding position
 
-**Social Media presence for Stage Evolution** -  Twitter Follower Impact on Crowdfunding
+**Social Media presence for Stage Evolution** -  Twitter Follower Impact on Seed and Series A funding
 ![SocialMedia](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/SocialMedia.gif)
 
 
