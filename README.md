@@ -2,8 +2,6 @@
 
 ![World Finance Review](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/startups_world_finance_review.jpg)
 
-# Startups Assessment using Machine Learning
-
 A startup company grows and grows until it proven itself – we had a prolific engagement with RedCrow (crowdfunding platform) company during our final semester capstone project work. RedCrow connects financial and human capital to healthcare start-ups. Despite of the fact that there are several prominent reasons for a startup to fail, “funding” still stands as foremost as this is the backbone of any unit to operate. There have been several studies in past in order to forecast the growth and success of startups. This project offers a web-based comprehensive decision-making tool to cater two broader spaces:
 
 **Predict the final position of startup (operational or close):** able to support startups, investors and investment platforms like RedCrow to predict the unicorn’s prospects.
@@ -16,10 +14,17 @@ A startup company grows and grows until it proven itself – we had a prolific e
 ![StartupPositionFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/PositionFlow.jpg)
 
 ** **
+**Web Application Demo** - Startup Operational Position Prediction 
+![WebAppDemo](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/WebApp.gif)
+
+** **
 
 **Stage evolution : startups movement from Seed to Stage A:** 
   * Support hypothesis of association between funding stage with digital & social presence
   * Probability of startups to establish Seed and Series A funding position
+
+**Social Media presence for Stage Evolution** -  Twitter Follower Impact on Crowdfunding
+![SocialMedia](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/SocialMedia.gif)
 
 
 * Analytical Approach:
@@ -33,11 +38,6 @@ A startup company grows and grows until it proven itself – we had a prolific e
 
 **CRISP-DM Methodology:** - for improvised outcome
 ![WebAppFlow](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/WebAppFlow.jpg)
-
-** **
-
-**Web Application Demo** - Startup Operational Position Prediction 
-![WebAppDemo](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/WebApp.gif)
 
 ** **
 
