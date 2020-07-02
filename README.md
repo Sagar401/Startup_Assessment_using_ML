@@ -59,3 +59,8 @@ A startup company grows and grows until it proven itself – we had a prolific e
 
 **Web Application Demo** - Startup Operational Position Prediction 
 ![WebAppDemo](https://github.com/Sagar401/Startup_Assessment_using_ML/blob/master/WebApp.gif)
+
+** **
+
+**Scope to explore:** - study and analyse the impact of other social media key indicators (Engagement rate, No of @Mentions, Click ratio, post score, sentiment score etc…) on startup's funding stage evolution and final position as Operational or Close
+
