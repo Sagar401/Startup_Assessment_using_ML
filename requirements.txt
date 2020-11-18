@@ -10,7 +10,7 @@ jupyter-core==4.4.0
 kiwisolver==1.0.1
 MarkupSafe==1.0
 matplotlib==2.2.2
-notebook==5.7.8
+notebook==6.1.5
 numpy==1.15.3
 oauthlib==2.1.0
 pandas==0.23.3
